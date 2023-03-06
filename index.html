@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperheroApi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <video autoplay loop muted plays-inline width="100%"
+       height="100%">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <div class="header">
+        <img src="/images/superherologo.ico" alt="logo">
+    </div>
+    <h1>Super Hero API</h1>
+    <input type="text" placeholder="Search For your Super Hero, EX: Deadpool" id="searchInput">
+    <div class="button">
+        <button id="searchButton">Search</button>
+        <button id="randomButton">Random Search</button>
+    </div>
+
+    <div class="hero-img" id="heroImage" >
+        <img src="images/heroImg.jpg" alt="" width="150px" height="180px">
+    </div>
+
+    <div class="heroname">
+     <h3 id="heroName"></h3>
+     <p id="heroWork"></p>
+    </div>
+
+    <div class="powerstats">
+        <p id="stats"></p>
+        <p id="statsValue"></p>
+    </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

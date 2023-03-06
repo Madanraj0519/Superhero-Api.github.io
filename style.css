@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #d6f3f3;
+}
+
+.wrapper .header img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    cursor: pointer;
+}
+
+
+.wrapper  input[type=text]{
+  width: 600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #08b5b5;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  color: black;
+  background-color:rgb(163, 215, 215);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.wrapper .button{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.wrapper .button button{
+    margin-right: 50px;
+    padding: 5px 25px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.wrapper .button button:hover{
+    background-color: #08b5b5;
+    color: aliceblue;
+}
+
+.wrapper h1{
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    font-size: 40px;
+}
+
+
+
+/* Image */
+
+.wrapper .hero-img{
+    position: absolute;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #d6f3f3;
+    top: 26%;
+    left: 48%;
+    /* display: none; */
+    
+}
+
+.wrapper .heroname{
+    position: absolute;
+    top: 54%;
+    left: 49%;
+    font-size: 20px;
+    
+}
+
+
+.wrapper .powerstats{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 10px;
+    background-color: #d6f3f3;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.wrapper .powerstats #statsValue{
+    margin-left: 15px;
+}
